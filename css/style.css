@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #666;
+}
+
+#content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%,-50%);
+}
+
+.img-magnifier-container{
+    position: relative;
+}
+
+.img-magnifier-container img{
+    width: 600px;
+    height: 400px;
+    border: 2px solid #333;
+    box-shadow: 0px 8px 22px rgba(0,0,0,0.5);
+}
+
+.img-magnifier-glass{
+    position: absolute;
+    border: 5px solid #ff0080;
+    border-radius: 50%;
+    cursor: none;
+    width: 100px;
+    height: 100px;
+}
